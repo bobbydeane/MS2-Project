@@ -17,16 +17,19 @@
 </header>
 <body>
 
-    <div class="game-area">
-        <h2>Game Area</h2>
+    <div>
+        <h2 id="round-text">Game round text</h2>
         <div id="image-area">
-            Gun GiF area
-
+            <img id="gun" src="assets/images/testgif.gif">  
+           <!--   <p>- Welcome to 8bit Russian Roulette...</p>-->
+             
         </div> 
         <br>
         <div id="buttons">
-            <button>Start</button>
-            <button>Help</button>
+            <button  id="start" data-type="start" input="submit" onclick="displayRound1()">Start</button>
+            <button id="help" data-type="help" input="submit" onclick="help()">Help</button>
+
+            
         </div>
 
     </div>
