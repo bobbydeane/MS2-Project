@@ -88,3 +88,7 @@ button {
     top:50%; 
     left:25%;
 }
+
+#round-text {
+    height: 50px;
+}
