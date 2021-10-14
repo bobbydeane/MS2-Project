@@ -52,6 +52,8 @@ function runGame(){
     or help to learn how to play.<br><br>Do you feel lucky??</p>`;
     let trigger1 = document.getElementById("start").innerHTML=`Start`;
     document.getElementById("start").onclick = displayRound1;
+    document.getElementById("chamber").innerHTML=`<button  id="start" data-type="start" input="submit" onclick="displayRound1()"><p>Start</p></button>`;
+    document.getElementById("chamber").style.left= "40%";
     console.log(displayBeginning);
  }
 
@@ -91,18 +93,23 @@ function displayRound1() {
     /* displays the Gun image */
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRStillImage.gif">`;
     /* displays the Round 1 text */
-    let Round = document.getElementById("round-text").textContent=`Round 1... your chances of failure are 1/6. Take a chance and hit the trigger button.`;
-    let trigger1Text = document.getElementById("start").innerHTML=`<p id="trigger">Pull Trigger</p>`;
-    
+    let Round = document.getElementById("round-text").textContent=`Round 1... your chances of failure are 1/6. Take a chance and pick a number.`;
+    let trigger1Text = document.getElementById("start").innerHTML=`<p id="trigger">Random</p>`;
+    /*displays buttons 1-6*/
+    document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="playRound1()"><p>1</p></button>
+    <button id="two" data-type="two" input="submit" onclick="playRound1()"><p>2</p></button>
+    <button id="three" data-type="three" input="submit" onclick="playRound1()"><p>3</p></button>
+    <button id="four" data-type="four" input="submit" onclick="playRound1()"><p>4</p></button>
+    <button id="five" data-type="five" input="submit" onclick="playRound1()""><p>5</p></button>
+    <button id="six" data-type="six" input="submit" onclick="playRound1()"><p>6</p></button>`;
+
+    /** Start -chamber button style **/
+     
+    document.getElementById("chamber").style.left= "16%";
+
     document.getElementById("start").onclick = playRound1;
 
     console.log(displayRound1);
-
-    
-    
-    /*let pullTrigger =document.getElementsById("start").addEventListener("click", function() {
-        playRound1();
-      }, false);*/
 
 }
 
@@ -119,6 +126,8 @@ function displayRound1() {
     let Round = document.getElementById("round-text").textContent= `Round 2 - Computers turn, select begin to Proceed`;
     let trigger1Text = document.getElementById("start").innerHTML=`<p id="trigger"> Begin Round 2</p>`;
     
+    document.getElementById("chamber").innerHTML="";
+
     document.getElementById("start").onclick = playRound2;
     console.log(displayRound2)
 }
@@ -135,6 +144,22 @@ function displayRound1() {
     /* displays the Round 3 text */
     let Round = document.getElementById('round-text').textContent=`Round 3 - You've made it this far... hit the Trigger button to take your turn`;
     let trigger1Text = document.getElementById("start").innerHTML=`<p>Pull Trigger</p>`;
+
+    
+
+    /*displays buttons 1-6*/
+    document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="playRound1()"><p>1</p></button>
+    <button id="two" data-type="two" input="submit" onclick="playRound1()"><p>2</p></button>
+    <button id="three" data-type="three" input="submit" onclick="playRound1()"><p>3</p></button>
+    <button id="four" data-type="four" input="submit" onclick="playRound1()"><p>4</p></button>
+    `;
+
+    /**
+     * Button style - Round 3
+     */
+     document.getElementById("chamber").style.left ="27%";
+    
+
     
     document.getElementById("start").onclick = playRound3;
     console.log(displayRound3);
@@ -161,16 +186,34 @@ function displayRound1() {
  */
 
  function displayRound5() {
+        /* displays the Gun image */
+        let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRStillImage.gif">`;
+        /* displays the Round 3 text */
+        let Round = document.getElementById('round-text').textContent=`Round 5 - Well Done on getting this far. You have a 50/50 chance of surviving this round! `;
+        let trigger1Text = document.getElementById("start").innerHTML=`<p>Pull Trigger</p>`;
+        
+        document.getElementById("start").onclick = playRound5;
+        console.log(playRound5);
     
-}
+    }
+
 
 /**
  * Display Round 6
  */
 
  function displayRound6() {
+
+        /* displays the Gun image */
+        let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRStillImage.gif">`;
+        /* displays the Round 4 text */
+        let Round = document.getElementById('round-text').innerHTML=`Round 6 - The final round, its the end of the road for the computer. the chances of getting a bang is 100%.`;
+        let trigger1Text = document.getElementById("start").innerHTML=`<p id="trigger"> Begin Round 4</p>`;
+        
+        document.getElementById("start").onclick = playRound6;
+        console.log(playRound6);
+    }
     
-}
 
 
 function help() {
@@ -184,8 +227,11 @@ function help() {
  * 
  */
 
+
+/*Play Round 1*/
+
 function playRound1() {
-    let num1 = Math.floor(Math.random() * 6) + 1;
+    let num1 = Math.floor(Math.random() * 100) + 1;
 
 if (num1 === 1) {
     gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
@@ -195,16 +241,27 @@ if (num1 === 1) {
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
-    let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round!`;
+    let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! Proceed to round 2.`;
     let trigger1Text = document.getElementById("start").innerHTML=`Round 2`;
+
+    /*displays buttons 1-6*/
+    document.getElementById("chamber").innerHTML=`<button  id="one" data-type="one" input="submit onclick="chamber1()"><p>1</p></button>
+    <button id="two" data-type="two" input="submit" onclick=""><p>2</p></button>
+    <button id="three" data-type="three" input="submit" onclick=""><p>3</p></button>
+    <button id="four" data-type="four" input="submit" onclick=""><p>4</p></button>
+    <button id="five" data-type="five" input="submit" onclick=""><p>5</p></button>
+    <button id="six" data-type="six" input="submit" onclick=""><p>6</p></button>`;
+
     document.getElementById("start").onclick = displayRound2;
 };
 
 
 }
 
+/*Play Round 2*/
+
 function playRound2() {
-    let num1 = Math.floor(Math.random() * 5) + 1;
+    let num1 = Math.floor(Math.random() * 100) + 1;
 
 if (num1 === 1) {
     gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
@@ -222,8 +279,10 @@ if (num1 === 1) {
 
 }
 
+/*Play Round 3*/
+
 function playRound3() {
-    let num1 = Math.floor(Math.random() * 4) + 1;
+    let num1 = Math.floor(Math.random() * 100) + 1;
 
 if (num1 === 1) {
     gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
@@ -240,8 +299,10 @@ if (num1 === 1) {
 
 }
 
+/*Play Round 4*/
+
 function playRound4() {
-    let num1 = Math.floor(Math.random() * 3) + 1;
+    let num1 = Math.floor(Math.random() * 100) + 1;
 
 if (num1 === 1) {
     gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
@@ -257,4 +318,42 @@ if (num1 === 1) {
 };
 
 
+}
+
+/*Play Round 5*/
+
+function playRound5() {
+    let num1 = Math.floor(Math.random() * 100) + 1;
+
+if (num1 === 1) {
+    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
+    Round = document.getElementById("round-text").innerHTML=`OHH NO!, you came sooo close!! Would you like to play again?`;
+    let trigger1Text = document.getElementById("start").innerHTML=`Play again?`;
+    document.getElementById("start").onclick = displayBeginning;
+    
+} else {
+    let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
+    let Round = document.getElementById("round-text").innerHTML=`Click... today really is your lucky day! Proceed to round 4.`;
+    let trigger1Text = document.getElementById("start").innerHTML=`Round 6`;
+    document.getElementById("start").onclick = displayRound6;
+};
+}
+
+/*Play Round 6*/
+
+function playRound4() {
+    let num1 = Math.floor(Math.random() * 100) + 1;
+
+if (num1 === 1) {
+    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
+    Round = document.getElementById("round-text").innerHTML=`BANG! Poor computer, it didn't have a chance! Well done on making it to the 6th round!`;
+    let trigger1Text = document.getElementById("start").innerHTML=`Play again?`;
+    document.getElementById("start").onclick = displayBeginning;
+    
+} else {
+    let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
+    let Round = document.getElementById("round-text").innerHTML=`Error`;
+    let trigger1Text = document.getElementById("start").innerHTML=`Error`;
+    document.getElementById("start").onclick = displayBeginning;
+};
 }
