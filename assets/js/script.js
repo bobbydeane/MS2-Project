@@ -157,7 +157,7 @@ function playRound2() {
 
 if (num1 === 1) {
     gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
-    Round = document.getElementById("round-text").innerHTML=`Phew... the computer loses this round`;
+    Round = document.getElementById("round-text").innerHTML=`Phew... the computer chose ${num1}, the bullet was in chamber ${num1}.`;
     let trigger1Text = document.getElementById("start").innerHTML=`Play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
