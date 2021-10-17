@@ -118,12 +118,12 @@ button {
 
 @media screen and (max-width: 990px) {
     h1 {
-        font-size: 150%;
+        font-size: 170%;
     }
     
     
     h2 {
-        font-size: 100%;
+        font-size: 130%;
     }
 
     p {
@@ -138,6 +138,79 @@ button {
         border-radius: 5%;
         border: 3px solid black;
     }
+
+    #typewriter {
+        white-space: normal;
+    }
+
+    #buttons
+    {
+
+    font-size: 70%;
+    }
 }
 
+/* for medium screen size - from 990px wide and down */
+
+@media screen and (max-width: 790px) {
+    
+    #image-area {
+        width: 80%;
+    }
+
+    #buttons {
+        font-size: 70%;
+        left: 28%;
+        
+    }
+
+    button {
+        height: 40px;
+        width: 10%;
+        border-radius: 5%;
+        border: 3px solid black;
+        font-size: 80%;
+    }
+
+
+    #round-text {
+        height: fit-content;
+    }
+
+    header {
+        height: fit-content;
+    }
+}
+
+/* for medium to small screen size - from 570px wide and down */
+
+@media screen and (max-width: 570px) {
+
+    #image-area {
+        width: 90%;
+    }
+
+    #buttons {
+    font-size: 70%;
+    left: 28%;
+    
+}
+
+    button {
+    height: 50px;
+    width: 15%;
+    border-radius: 5%;
+    border: 3px solid black;
+    font-size: 60%;
+}
+
+
+    #round-text {
+    height: fit-content;
+}
+
+    header {
+    height: fit-content;
+}
+}
 
