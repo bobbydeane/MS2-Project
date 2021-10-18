@@ -88,6 +88,7 @@ button {
     border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
     background-color: #5bcc00;
+    
 }
 
 #buttons {
@@ -99,12 +100,24 @@ button {
 
 }
 
+#chamber-container {
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    border: 5px dashed black;
+    display: inline-block ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: chartreuse;
+    margin-left: 14%;
+}
+
 #chamber {
 
     margin: auto;
-    position:relative;
-    top: 50%; 
-    left: 20%;
+    position: relative;
+    
 }
 
 #round-text {
@@ -192,13 +205,13 @@ button {
 
     #buttons {
     font-size: 70%;
-    left: 28%;
+    left: 14%;
     
 }
 
     button {
     height: 50px;
-    width: 15%;
+    width: 22%;
     border-radius: 5%;
     border: 3px solid black;
     font-size: 60%;
@@ -212,5 +225,13 @@ button {
     header {
     height: fit-content;
 }
+   
+    #chamber {
+        left: 0%;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
 
