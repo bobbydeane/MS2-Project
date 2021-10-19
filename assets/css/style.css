@@ -15,6 +15,44 @@ header {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Footer and social media Style - Taken from love running project */
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: #5bcc00;
+}
+
+.copyright {
+    font-size: 100%;
+    background-color: #5bcc00;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 1%;
+    color: #3a3a3a;
+}
+
+
 /* Game Area */
 
 .game-area {
@@ -94,19 +132,19 @@ button {
 #buttons {
 
     margin: auto;
-    position:relative;
+    position: relative;
     top: 50%; 
-    left: 33%;
+    display: inline;
 
 }
 
 #chamber-container {
-    height: 150px;
+    height: 100px;
     width: 70%;
     margin: auto;
-    border: 5px dashed black;
-    display: inline-block ;
-    justify-content: center;
+    
+    display: inline-block;
+    
     align-items: center;
     color: chartreuse;
     margin-left: 14%;
@@ -116,6 +154,7 @@ button {
 
     margin: auto;
     position: relative;
+    display: inline;
     
 }
 
@@ -172,16 +211,16 @@ button {
 
     #buttons {
         font-size: 70%;
-        left: 28%;
+        
         
     }
 
     button {
         height: 40px;
-        width: 10%;
+        width: 60px;
         border-radius: 5%;
         border: 3px solid black;
-        font-size: 80%;
+        font-size: 70%;
     }
 
 
@@ -211,13 +250,13 @@ button {
 
     #buttons {
     font-size: 70%;
-    left: 0%;
+    
     
 }
 
     button {
     height: 50px;
-    width: 18%;
+    width: 50px;
     border-radius: 5%;
     border: 3px solid black;
     font-size: 60%;
@@ -232,12 +271,11 @@ button {
     height: fit-content;
 }
    
-    #chamber {
-        left: 0%;
-    }
 
     img {
         max-width: 100%;
     }
 }
+
+
 
