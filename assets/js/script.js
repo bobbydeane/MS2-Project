@@ -117,6 +117,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time..`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -175,6 +177,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Phew... the computer chose ${num1}, the bullet was in chamber ${num1}.`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -282,6 +286,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Woohoo!... the computer loses this round. That was close.`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -334,6 +340,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OHH NO!, you came sooo close!! The bullet was in chamber ${num1}. Would you like to play again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -370,8 +378,10 @@ if (num1 === 1) {
 
 
 function help() {
-    document.getElementById("image-area").innerHTML= `<p id="typewriter">In round 1, the user goes first.<br><br>The Computer goes first in round 2<br><br>In round 1, your chances of failing are 1/6..<br><br>In round 2, the computers chances of failing <br><br> are 2/6 etc<br><br>Can you make it to round 6? <br><br>
-    Pull the Trigger and take your chance...</p>`;
+    document.getElementById("image-area").innerHTML= `<p id="typewriter">This is the fun (and safe) arcade version of<br><br>Russian Roullette>choose wisely.<br><br>In round one, the user has a choice between<br>
+    the numbers 1-6.<br><br>If you choose icorrectly, you will get a BANG!<br><br>
+    Try your luck against to the computer by<br>selecting the VS game mode<br>and see if you can make it all the way<br>
+    to Round 6.</p>`;
 }
 
 
@@ -385,6 +395,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`BANG! Poor computer, it didn't have a chance! Well done on making it to the 6th round!`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -411,6 +423,8 @@ if (num1 === 1) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -434,6 +448,8 @@ if (num1 === 2) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -458,6 +474,8 @@ if (num1 === 3) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -480,6 +498,8 @@ if (num1 === 4) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -503,6 +523,8 @@ if (num1 === 5) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -526,6 +548,8 @@ if (num1 === 6) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -555,6 +579,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -580,6 +606,8 @@ if (num1 === 2) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -602,6 +630,8 @@ if (num1 === 3) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -625,6 +655,8 @@ if (num1 === 4) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -655,6 +687,8 @@ if (num1 === 1) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click...  The bullet was in chamber number ${num1}.`;
@@ -677,6 +711,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -751,6 +787,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time..`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -820,6 +858,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Unlucky this time! Why don't you try again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -881,6 +921,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Hard luck! Why don't you try again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -942,6 +984,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Hard luck! Why don't you try again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -997,6 +1041,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Hard luck! You came very close to Round 6. Why don't you try again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1041,9 +1087,9 @@ if (num1 === 1) {
 
 }
 
-/**Play Round 5 Solo */
+/**Play Round 6 Solo */
 
-function playRound5Solo() {
+function playRound6Solo() {
     let num1 = Math.floor(Math.random() * 1) + 1;
 
 if (num1 === 1) {
@@ -1051,6 +1097,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`Well done, you made it to the end of the game, I hope you had fun!`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1077,6 +1125,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1101,6 +1151,8 @@ if (num1 === 2) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1124,6 +1176,8 @@ if (num1 === 3) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1147,6 +1201,8 @@ if (num1 === 4) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1171,6 +1227,8 @@ if (num1 === 5) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1194,6 +1252,8 @@ if (num1 === 6) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1222,6 +1282,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1246,6 +1308,8 @@ if (num1 === 2) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1269,6 +1333,8 @@ if (num1 === 3) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1292,6 +1358,8 @@ if (num1 === 4) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1315,6 +1383,8 @@ if (num1 === 5) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1346,6 +1416,8 @@ if (num1 === 1) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+    
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -1369,6 +1441,8 @@ if (num1 === 2) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1392,6 +1466,8 @@ if (num1 === 3) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1415,6 +1491,8 @@ if (num1 === 4) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1443,6 +1521,8 @@ if (num1 === 1) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -1467,6 +1547,8 @@ if (num1 === 2) {
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
     
+    document.getElementById("chamber").innerHTML="";
+
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... You survived this round! The bullet was in chamber number ${num1}.`;
@@ -1489,6 +1571,8 @@ if (num1 === 3) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1519,6 +1603,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1542,6 +1628,8 @@ if (num1 === 2) {
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time.. the bullet was in chamber ${num1}`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
@@ -1571,6 +1659,8 @@ if (num1 === 1) {
     Round = document.getElementById("round-text").innerHTML=``;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
+
+    document.getElementById("chamber").innerHTML="";
     
 } else {
     let gunGif = document.getElementById("image-area").innerHTML = `<img id="gun" src="assets/images/RRGreenNoLoop.gif">`;
