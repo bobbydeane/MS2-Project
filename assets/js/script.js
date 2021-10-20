@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
 }
     
-)
+);
 
 /**
  * Event click start button - begin round 1
@@ -57,7 +57,7 @@ function runGame(){
     <button id="reset" data-type="reset" onclick="displayBeginning()">Reset</button>`;
     document.getElementById("solo").onclick = displayRound1Solo;
     document.getElementById("start").onclick = displayRound1;
-    document.getElementById("start").innerHTML = `Vs`
+    document.getElementById("start").innerHTML = `Vs`;
     document.getElementById("buttons").style.left = "27%";
     document.getElementById("chamber").innerHTML ="";
     console.log(displayBeginning);
@@ -113,7 +113,7 @@ function playRound1() {
     let num1 = Math.floor(Math.random() * 6) + 1;
 
 if (num1 === 1) {
-    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
+    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif";
     Round = document.getElementById("round-text").innerHTML=`OH NO! Better luck next time..`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
@@ -134,7 +134,7 @@ if (num1 === 1) {
     <button id="six" data-type="six" input="submit" onclick="">6</button>`;
 
     document.getElementById("start").onclick = displayRound2;
-};
+}
 
 
 }
@@ -163,7 +163,7 @@ if (num1 === 1) {
     document.getElementById("chamber").innerHTML="";
 
     document.getElementById("start").onclick = playRound2;
-    console.log(displayRound2)
+    console.log(displayRound2);
 }
 
 
@@ -185,7 +185,7 @@ if (num1 === 1) {
     let Round = document.getElementById("round-text").innerHTML=`Click... the computer survived the 20% chance of failure`;
     let trigger1Text = document.getElementById("start").innerHTML=`Round 3`;
     document.getElementById("start").onclick = displayRound3;
-};
+}
 
 
 }
@@ -234,7 +234,7 @@ function playRound3() {
     let num1 = Math.floor(Math.random() * 4) + 1;
 
 if (num1 === 1) {
-    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
+    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif";
     Round = document.getElementById("round-text").innerHTML=`Uh Ohh, better luck next time!`;
     let trigger1Text = document.getElementById("start").innerHTML=``;
     document.getElementById("start").onclick = displayBeginning;
@@ -854,7 +854,7 @@ function playRound2Solo() {
     let num1 = Math.floor(Math.random() * 5) + 1;
 
 if (num1 === 1) {
-    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif"
+    gunGif = document.getElementById('gun').src="assets/images/RRGreenNoLoopBang.gif";
     Round = document.getElementById("round-text").innerHTML=`Unlucky this time! Why don't you try again?`;
     let trigger1Text = document.getElementById("start").innerHTML=`play again?`;
     document.getElementById("start").onclick = displayBeginning;
