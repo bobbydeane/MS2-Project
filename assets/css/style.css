@@ -93,7 +93,7 @@ overflow: hidden; /* Ensures the content is not revealed until the animation */
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 position: static;
-    height: 50%;
+    height: 90%;
     width: 100%
 }
 
@@ -253,6 +253,16 @@ button {
     
     
 }
+
+    #chamber-container {
+    height: 100px;
+    width: 69%;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    color: chartreuse;
+    flex-wrap: wrap;
+    }
 
     button {
     height: 50px;

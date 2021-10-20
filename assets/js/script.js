@@ -47,9 +47,9 @@ function runGame(){
  */
 
  function displayBeginning() {
-    let Round = document.getElementById("round-text").textContent=`Welcome, press start to begin!`;
-    let welcome = document.getElementById("image-area").innerHTML=`<p id="typewriter">Welcome to 8Bit Russian Roullette.<br><br> Press start to begin,<br><br>
-    or help to learn how to play.<br><br>Do you feel lucky??</p>`;
+    let Round = document.getElementById("round-text").textContent=`Welcome, please select a game-type to start.`;
+    let welcome = document.getElementById("image-area").innerHTML=`<p id="typewriter">Welcome to 8Bit Russian Roullette.<br><br>Select Solo for a single player game,<br><br>
+    or else VS to play against the computer.<br><br>Select help to learn how to play.<br><br><br>Don't worry, it's completley safe!</p>`;
     
     document.getElementById("buttons").innerHTML= `<button  id="solo" data-type="solo">Solo</button>
     <button  id="start" data-type="start">Vs</button>
@@ -1029,7 +1029,7 @@ if (num1 === 1) {
 
     
     /*displays buttons 1-2*/
-    document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="chamber1Round6Solo()">Click me for a suprize</button>`;
+    document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="chamber1Round6Solo()">Click me</button>`;
 
     /**
      * Button style - Round 6
