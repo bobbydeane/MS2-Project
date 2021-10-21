@@ -1,108 +1,208 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 8BIT RUSSIAN ROULETTE
 
-Welcome bobbydeane,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Introduction
 
-## Gitpod Reminders
+8bit Russian Roulette is a web based game built in JavaScript, HTML and CSS. It is based on the infamous game of Russian Roulette but it is much safer and a lot more enjoyable. It is targeted towards users who enjoy playing short, fun games.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![8bitRRHome]
 
-`python3 -m http.server`
+Click [here](https://bobbydeane.github.io/MS2-Project/) to view the Live website on Github. Please note: to open any links in this document in a new browser tab, please press CTRL + Click.
 
-A blue button should appear to click: _Make Public_,
+# UX
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+**The Strategy Plane.**
 
-Another blue button should appear to click: _Open Browser_.
+ - 8bit Russian Roulette was created to be a fun game that users could play over a short duration. Looking at classic arcade games, they tend to be uncomplicated, repetitive yet addictive. And I tried to capture this in 8bit Russian Roulette’s gameplay. The aesthetic sets the tone of the user interaction.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Site Goals**
 
-To log into the Heroku toolbelt CLI:
+ - To provide the user with a simple and enjoyable game.
+ - To ensure that navigating the site is uncomplicated and intuitive.
+ - To give the use the option of multiple game types.
+ - To provide the user with instructions should they need them.
+ - To ensure the site is accessible.
+ - To ensure the site displays correctly across different device screens sizes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**User Stories**
 
-------
+ - As a user I want to play as fun and straightforward game.
+ - As a user I want a game that allows me to exercise choice.
+ - As a user I want to play against the computer.
+ - As a user I want to be able to reset a game and start over any time I choose.
 
-## Release History
+strikethrough text
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**The Scope Plane**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Features planned:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - Responsive Design – in which the site should be suitable for all devices such as desktop, tablet and mobile.
+ - All navigation elements should be obvious and contained within the screen.
+ - The Site should be visually pleasing for the user.
+ - The user be able to choose the game type to play.
+ - The site should be accessible to users.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**The Structure Plane**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+User Story:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+ - As a user I want to play a fun and straightforward game.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Acceptance Criteria:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ - It should be obvious to the user that this is a game with clear instructions on how to play.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Implementation:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ - The colour scheme and font help portray the site as a classic arcade game. The Green and black colours take the user back to the early days of gaming. There is a direct link to a Help page with instructions on how to play the game as well a text to guide the user between rounds.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+User Story:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ - As a user I want a game that allows me to exercise choice.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+Acceptance Criteria:
 
-## FAQ about the uptime script
+ - The game should give the use a choice of buttons to select that in turn will decide the outcomes of each round.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+Implementation:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ - Each round the user is presented with a series of buttons. Each button represents a chamber, and one of the chambers has a ‘bullet’ in it. If the user chooses incorrectly then the game is over.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+User Story:
 
-**So….?**
+ - As a user I want to play against the computer.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Acceptance Criteria:
 
-**Can I opt out?**
+ - The user will have the ability to choose between two game types. Solo & Vs.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Implementation:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ - The game has two game types, Solo & Vs. Solo game types involve the user playing each round until the final round/the game ends with a bang. In the Vs game type the user plays against the computer. The user will go first in the Vs mode and the computer will go second. The computer’s choice will be random whereas the user can still choose their ‘chamber’.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+User Story:
 
-Happy coding!
+ - As a user I want to be able to reset a game and start over any time I choose.
+
+
+Acceptance Criteria:
+
+ - The user should be able to exit or restart the game at any point.
+
+Implementation:
+
+ - The game features a reset button that brings the user back to the home display. This button is present throughout the whole game and can be executed any time.
+
+
+### The Surface Plane
+
+#### Design
+
+As the name of the site suggests, I was looking to mimic the 8bit style of pixelated, block like design with few smooth curves. I found a .gif that displays a hand holding a gun that displays a Bang when looped. The image was black and green and reminded me of the old space invade or pong games. The classics. From this .gif image came the colour scheme – Black & Green.
+
+
+<![endif]-->
+
+The Gun image was found at [shuttershock](https://www.shutterstock.com/video/clip-1037455850-2d-animation-motion-graphics-monoline-drawing-hand) and I used a gif editing site called - [https://ezgif.com/](https://ezgif.com/) to end the gif loop and chop the gif into three separate image files. The first image was used as a still for when the game loads and rounds begin, the second .gif image was used to simulate the gun firing an empty chamber and the third .gif image was used when the user or computer lost the round with a BANG!
+
+The Arcade 8bit style font was found on [Google fonts](%5Bhttps://fonts.google.com/%5D)- [https://fonts.google.com/](https://fonts.google.com/).
+
+
+
+The Home Display.
+
+<![if !vml]>![A screenshot of a computer
+
+
+
+The Helppage.
+
+<![if !vml]>![Text, application
+
+
+
+Round one of the Solo Game.
+
+<![if !vml]>![Diagram
+
+
+
+Feedback from the computers turn in round 2.
+
+<![if !vml]>![A picture containing diagram
+
+
+
+**Future Enhancements**
+
+ - Ability to enter user name – this would make the user experience more personable.
+ - Ability to toggle sounds or music – the arcade style would really be complete with some of those iconic sounds included in the game.
+ - Multiplayer games – the ability to play with other users would make the game more fun and interesting.
+
+**Testing**
+
+There was continuous testing throughout the coding process due to the nature of Javascript. This ensure my functions were executing as intended.
+
+-   HTML
+
+-   No errors were returned when passing through the official W3C [Validator](https://validator.w3.org/nu/?doc=https://bobbydeane.github.io/MS2-Project/). 
+
+-   <![if !vml]>![Graphical user interface, text, application, email
+    
+  
+
+-   No errors were returned when passing through the official [W3C CSS Validation Service - Jigsaw.](W3C%20CSS%20Validator%20results%20for%20https://bobbydeane.github.io/MS2-Project/%20%28CSS%20level%203%20+%20SVG%29) 
+
+-   <![if !vml]>![Graphical user interface, text, application, email
+    
+    
+
+-   JavaScript
+
+-   No errors were returned when passing through the validator service at JSHint.com.
+
+-   <![if !vml]>![Text
+    
+    
+
+Lighthouse
+
+<![if !supportLists]>· <![endif]><![if !vml]>![Graphical user interface, application
+
+
+Notable bugs
+
+There were a few small visual errors when testing the site on different devices that I raise with my mentor Rahul. When passing the JS code through Jshint there was a few warnings regarding missing semi-colons and rogue brackets. The Jshint validator also highlighted many unused variables, these variables targeted the HTML doc so were not recognised as used within Jshint. I relied on Slack for clarification on this.
+
+**Deployment**
+
+-   The site was deployed to GitHub pages, the live link can be found here - [https://bobbydeane.github.io/MS2-Project/](https://bobbydeane.github.io/MS2-Project/)
+
+## Credits
+
+### Media
+
+-   The main gun image was found on shuttershock.
+-   The text was borrowed from Google fonts
+-   The social media icons were taken from Font Awesome and the code institute ‘Love Running’ walkthrough.
+
+### Reference Material
+
+-   W3 Schools was used as a reference point for HTML, CSS and JavaScript
+
+### Acknowledgements
+
+Thanks to my Mentor Rahul for being supportive of my ideas and keeping me on track with his advice. Thanks again to Code institute for the Opportunity.
