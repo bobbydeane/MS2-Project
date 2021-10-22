@@ -6,7 +6,7 @@
 
 8bit Russian Roulette is a web based game built in JavaScript, HTML and CSS. It is based on the infamous game of Russian Roulette but it is much safer and a lot more enjoyable. It is targeted towards users who enjoy playing short, fun games.
 
-![8bitRRHome]
+![Mockup]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/RRscreenMockUp.PNG
 
 Click [here](https://bobbydeane.github.io/MS2-Project/) to view the Live website on Github. Please note: to open any links in this document in a new browser tab, please press CTRL + Click.
 
@@ -114,7 +114,6 @@ Implementation:
 As the name of the site suggests, I was looking to mimic the 8bit style of pixelated, block like design with few smooth curves. I found a .gif that displays a hand holding a gun that displays a Bang when looped. The image was black and green and reminded me of the old space invade or pong games. The classics. From this .gif image came the colour scheme – Black & Green.
 
 
-<![endif]-->
 
 The Gun image was found at [shuttershock](https://www.shutterstock.com/video/clip-1037455850-2d-animation-motion-graphics-monoline-drawing-hand) and I used a gif editing site called - [https://ezgif.com/](https://ezgif.com/) to end the gif loop and chop the gif into three separate image files. The first image was used as a still for when the game loads and rounds begin, the second .gif image was used to simulate the gun firing an empty chamber and the third .gif image was used when the user or computer lost the round with a BANG!
 
@@ -124,25 +123,25 @@ The Arcade 8bit style font was found on [Google fonts](%5Bhttps://fonts.google.c
 
 The Home Display.
 
-<![if !vml]>![A screenshot of a computer
+![8bitRRHome]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Home.png
 
 
 
 The Helppage.
 
-<![if !vml]>![Text, application
+![Help]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Help.png
 
 
 
 Round one of the Solo Game.
 
-<![if !vml]>![Diagram
+![Round1]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Round1.png
 
 
 
 Feedback from the computers turn in round 2.
 
-<![if !vml]>![A picture containing diagram
+![round2VS]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Vs.png
 
 
 
@@ -160,13 +159,13 @@ There was continuous testing throughout the coding process due to the nature of 
 
 -   No errors were returned when passing through the official W3C [Validator](https://validator.w3.org/nu/?doc=https://bobbydeane.github.io/MS2-Project/). 
 
--   <![if !vml]>![Graphical user interface, text, application, email
+-   ![HTML]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/HTML.png
     
   
 
 -   No errors were returned when passing through the official [W3C CSS Validation Service - Jigsaw.](W3C%20CSS%20Validator%20results%20for%20https://bobbydeane.github.io/MS2-Project/%20%28CSS%20level%203%20+%20SVG%29) 
 
--   <![if !vml]>![Graphical user interface, text, application, email
+-   ![CSS]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/CSS.png
     
     
 
@@ -174,13 +173,14 @@ There was continuous testing throughout the coding process due to the nature of 
 
 -   No errors were returned when passing through the validator service at JSHint.com.
 
--   <![if !vml]>![Text
+-   ![Jshint]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Jshint.png
+    
     
     
 
 Lighthouse
 
-<![if !supportLists]>· <![endif]><![if !vml]>![Graphical user interface, application
+![Lighthouse]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/lighthouse.PNG
 
 
 Notable bugs
