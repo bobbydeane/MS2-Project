@@ -212,7 +212,7 @@ if (num1 === 1) {
 
     
     /*displays buttons 1-4*/
-    let chamberHTML = document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="chamber3()">1</button>
+    let chamberHTML = document.getElementById("chamber").innerHTML=`<button id="one" data-type="one" input="submit" onclick="chamber1Round3()">1</button>
     <button id="two" data-type="two" input="submit" onclick="chamber2Round3()">2</button>
     <button id="three" data-type="three" input="submit" onclick="chamber3Round3()">3</button>
     <button id="four" data-type="four" input="submit" onclick="chamber4Round3()">4</button>
@@ -240,7 +240,7 @@ if (num1 === 1) {
     let startOnclick = document.getElementById("start").onclick = displayBeginning;
     
 } else {
-    let gunGif = document.getElementById("image-area").innerHTML = `< alt="a animated drawing of a hand holding a gun with green background" id="gun" src="assets/images/RRGreenNoLoop.gif">`;
+    let gunGif = document.getElementById("image-area").innerHTML = `<img alt="a animated drawing of a hand holding a gun with green background" id="gun" src="assets/images/RRGreenNoLoop.gif">`;
     let Round = document.getElementById("round-text").innerHTML=`Click... today really is your lucky day! The bullet was in Chamber number ${num1}. Proceed to round 4.`;
     let trigger1Text = document.getElementById("start").innerHTML=`Round 4`;
     let startOnclick = document.getElementById("start").onclick = displayRound4;
