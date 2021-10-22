@@ -6,7 +6,9 @@
 
 8bit Russian Roulette is a web based game built in JavaScript, HTML and CSS. It is based on the infamous game of Russian Roulette but it is much safer and a lot more enjoyable. It is targeted towards users who enjoy playing short, fun games.
 
-![Mockup]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/RRscreenMockUp.PNG
+![Mockup](https://github.com/bobbydeane/MS2-Project/blob/main/assets/images/READMEMedia/RRscreenMockUp.PNG?raw=true)
+
+
 
 Click [here](https://bobbydeane.github.io/MS2-Project/) to view the Live website on Github. Please note: to open any links in this document in a new browser tab, please press CTRL + Click.
 
@@ -123,25 +125,25 @@ The Arcade 8bit style font was found on [Google fonts](%5Bhttps://fonts.google.c
 
 The Home Display.
 
-![8bitRRHome]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Home.png
+![8bitRRHome](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Home.png?raw=true)
 
 
 
 The Helppage.
 
-![Help]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Help.png
+![Help](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Help.png?raw=true)
 
 
 
 Round one of the Solo Game.
 
-![Round1]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Round1.png
+![Round1](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Round1.png?raw=true)
 
 
 
 Feedback from the computers turn in round 2.
 
-![round2VS]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Vs.png
+![round2VS](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Vs.png?raw=true)
 
 
 
@@ -159,13 +161,13 @@ There was continuous testing throughout the coding process due to the nature of 
 
 -   No errors were returned when passing through the official W3C [Validator](https://validator.w3.org/nu/?doc=https://bobbydeane.github.io/MS2-Project/). 
 
--   ![HTML]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/HTML.png
+-   ![HTML](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/HTML.png?raw=true)
     
   
 
 -   No errors were returned when passing through the official [W3C CSS Validation Service - Jigsaw.](W3C%20CSS%20Validator%20results%20for%20https://bobbydeane.github.io/MS2-Project/%20%28CSS%20level%203%20+%20SVG%29) 
 
--   ![CSS]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/CSS.png
+-   ![CSS](https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/CSS.png?raw=true)
     
     
 
@@ -173,14 +175,14 @@ There was continuous testing throughout the coding process due to the nature of 
 
 -   No errors were returned when passing through the validator service at JSHint.com.
 
--   ![Jshint]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/Jshint.png
+-   ![Jshint](https://github.com/bobbydeane/MS2-Project/blob/main/assets/images/READMEMedia/JShint.png?raw=true)
     
     
     
 
 Lighthouse
 
-![Lighthouse]https://github.com/bobbydeane/MS2-Project/blob/4e56042ffd3d126bf0c4f51062f8476a25aa5559/assets/images/READMEMedia/lighthouse.PNG
+![Lighthouse](https://github.com/bobbydeane/MS2-Project/blob/main/assets/images/READMEMedia/lighthouse.PNG?raw=true)
 
 
 Notable bugs
